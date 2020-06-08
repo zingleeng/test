@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First Page</title>
+    <script src="https://kit.fontawesome.com/b028650185.js" crossorigin="anonymous"></script>
+</head>
+
+    <i><h1> Hello World </h1></i>
+    <p>01.05 - Trình chỉnh sửa: Cách sử dụng trình chỉnh sửa để tạo tệp HTML</p>
+
+    <p>Trong tài liệu HTML, bạn có thể định dạng lại chữ viết như <strong>tô đậm</strong> chữ viết, hoặc có thể <i>in nghiêng</i>, hoặc cũng có thể <u>gạch chân</u> nó tùy thích. Một số trường hợp bạn cũng có thể sẽ cần <strike>gạch ngang</strike> chữ viết.</p>
+    <hr>
+    <p>Ở trên là một đoạn kẻ ngang được khai báo bằng thẻ <code>&lt;hr&gt;</code>.</p>
+    <p>Nếu bạn cần nhấn mạnh gì đó, bạn có thể <em>viết như thế này</em>.</p>
+    <!-- <strong>: In đậm chữ viết.
+    <i>: In nghiêng chứ viết.
+    <u>: Gạch chân chữ viết.
+    <strike>: Gạch ngang chữ viết.
+    <em>: Nhấn mạnh câu.
+    <code>: Định dạng cho một đoạn mã nào đó.
+    <hr>: Thước kẻ ngang trên tài liệu.
+    <mark>: Tô sáng chữ viết. -->
+
+    <br><span style="color: red">chữ màu đỏ</span>
+    <br><span style="color: white; background-color: red">Chữ có nền màu đỏ và màu chữ là trắng</span>
+    <br><span style="font-size: 32px">Chữ có kích thước 32px</span>
+    <br><span style="font-family: Arial">Font chữ Arial</span>
+    <br><span style="font-family: Helvetica, Arial">Font chữ Arial</span>
+    
+    <br><style>
+        p.left {
+           text-align: left;
+        }
+        p.right {
+           text-align: right;
+        }
+        p.center {
+           text-align: center;
+        }
+    </style>
+    <p class="left">This paragraph is aligned to <strong>left.</strong></p>
+    <p class="right">This paragraph is aligned to <strong>right.</strong></p>
+    <p class="center">This paragraph is aligned to <strong>center.</strong></p>
+
+    <br><style>
+        td.top {
+           vertical-align: top;
+        }
+        td.middle {
+           vertical-align: middle;
+        }
+        td.bottom {
+           vertical-align: bottom;
+        }
+    </style>
+    <table border="1" cellpadding="2" cellspacing="0" style="height: 150px;">
+      <tr>
+         <td class="top">Top</td>
+         <td class="middle">Middle</td>
+         <td class="bottom">Bottom</td>
+      </tr>
+    </table>
+
+    <style>
+        span.baseline {
+            vertical-align: baseline;
+            color: red;
+        }
+        span.sub {
+            vertical-align: sub;
+                    color: red;
+    
+        }
+        span.super {
+            vertical-align: super;
+                    color: red;
+    
+        }
+        span.pixel {
+            vertical-align: -10px;
+                    color: red;
+    
+        }
+    </style>
+    <p>This is an <span class="baseline">inline text</span> example.</p>
+    <p>This is a <span class="sub">sub line text</span> example.</p>
+    <p> This is a <span class="super">super line text</span> example.</p>
+    <p> This is a <span class="pixel">pixel</span> example.</p>
+    
+    <main>
+        <p> THIS IS MY MAIN CODE</p>
+    <footer>
+        <p>Think of a more interesting footer</p>
+    </footer>
+    </main>
+
+    <i class="fas fa-ambulance"></i>
+    <i class="fas fa-ambulance fa-xs"></i>
+    <i class="fas fa-ambulance fa-md"></i>
+    <i class="fas fa-ambulance fa-lg"></i>
+    <i class="fas fa-ambulance fa-2x"></i>
+    <i class="fas fa-ambulance fa-3x"></i>
+    <i class="fas fa-ambulance fa-5x"></i>
+
+    <br> <!-- xuong dong -->
+    <i class="fas fa-ambulance fa-10x"></i>
+
+    <a href = "https://www.facebook.com/profile.php?id=100005172645815" aria-label="faceeeebookkk"><i class="fab fa-facebook fa-5x"></i></a>
+    <a href = "https://matrixcalc.org/vi/#rank%28%7B%7B0,-1,3,1,3,2,1%7D,%7B0,-2,6,1,-5,0,-1%7D,%7B0,3,-9,2,4,1,-1%7D,%7B0,1,-3,-1,3,0,1%7D%7D%29">Toan</a>
+    <a href = "test.html">Mo file test.html</a>
+    <br>
+    <a href = "be yeu/cham lun.jpg">Tram lun</a>
+    <br>
+    <a href = "SSG project.docx">docx</a>
+    <br>
+    <a href = "https://img.freepik.com/free-vector/abstract-colorful-flow-shapes-background_23-2148258092.jpg?size=626&amp;ext=jpg">Anh tren web</a>
+    
+    <br>
+    <h1> Video </h1>
+    <video src = "Tay Trái Chỉ Trăng - Tát Đỉnh Đỉnh  _ OST Hương Mật Tựa Khói Sương.mp4" width = "400" controls>
+        Your brower does not support the <code>video</code>
+    </video>
+    <video src = "Tay Trái Chỉ Trăng - Tát Đỉnh Đỉnh  _ OST Hương Mật Tựa Khói Sương.mp4" width = "400" controls loop>
+        Your brower does not support the <code>video</code>
+    </video>
+    <video src = "Tay Trái Chỉ Trăng - Tát Đỉnh Đỉnh  _ OST Hương Mật Tựa Khói Sương.mp4" width = "400" autoplay controls > <!-- autoplay -->
+        Your brower does not support the <code>video</code>
+    </video>
+
+    <br>
+    <h1>Audio</h1>
+    <audio src="Đau Vậy Đủ Rồi - Karik X V.P.Tiên _ Official Music Video_amyPCmf9jrw.mp3" controls>
+        Toi ten la zing :))
+    </audio>
+
+    <figure>
+        <img src = "con cho.jpg"
+             alt = "My dog">
+        <figcaption>Default image size</figcaption>
+    </figure>
+
+    <figure>
+        <img src = "con cho.jpg"
+             width="500px"
+             alt = "My dog">
+        <figcaption>Set image size</figcaption>
+    </figure>
+
+    <figure>
+        <img src = "con cho.jpg"
+             width="500px" height="100px"
+             alt = "My dog">
+        <figcaption>Set image size</figcaption>
+    </figure>
+
+    <figure>
+        <img src = "con cho.jpg"
+             width="50%"
+             alt = "My dog">
+        <figcaption>Set image size</figcaption>
+    </figure>
+
+    <div style="display:inline-block;border:1px solid #555">
+        <img src="face.jpg" vspace="100">
+    </div>
+    <br><br>
+    <div style="display:inline-block;border:1px solid #555">
+        <img src="face.jpg" hspace="100">
+    </div>
+    <div style="display:inline-block;border:1px solid #555">
+        <img src="face.jpg" hspace="100">
+    </div>
+
+    <br>
+    <img src="face.jpg" hspace="100">
+    <img src="face.jpg" hspace="100">
+    <img src="face.jpg" hspace="100">
+
+    <br><img src="face.jpg" align="left">
+    <br><img src="face.jpg" align="right">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p>- Tài liệu học <img src="face.jpg" align="top"> lập trình web</p>
+    <p>- Tài liệu học <img src="face.jpg" align="middle"> lập trình web</p>
+    <p>- Tài liệu học <img src="face.jpg" align="bottom"> lập trình web</p>
+    
+    <table>
+        <tr><th>Row One &nbsp&nbsp&nbsp&nbsp</th><th>Row Tow</th><th>Row Three</th></tr>
+        <tr><td>One</td><td>Tow</td><td>Three</td></tr>
+        <tr><td>Four</td><td>Five</td><td>Six</td></tr>
+        <tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <th>Child's Name: </th><th>Paren's Name:</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Catherine</td><td>Michael McCarthy</td>
+        </tr>
+        <tr>
+            <td>Colleen McCarthy</td>
+        </tr>
+        <tr>
+            <td>Maggie</td><td>Sheila McGee</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Edward</td><td>Catherine Howard</td>
+        </tr>
+        <tr>
+            <td>Jeff Howard</td>
+        </tr>
+    </table>
+
+    <button name="button" type="button">Click Here</button>
+    <button name="button" value="OK" type="button" onclick="hello()">Hien thong bao</button>  
+    <script>  
+        function hello(){  
+        alert("hello html button");  
+        }  
+    </script>
+
+    <br><meter min="0" max="10" low="3" high="7" value="5"></meter>
+    <br><meter min="0" max="10" low="3" high="7" value="2"></meter>
+    <br><meter min="0" max="10" low="3" high="7" value="9"></meter>
+
+    <h1>Muc do thong minh cua sinh vien</h1>
+    <progress value="20" max="100"></progress>
+    
+    <br><progress max="10" value="0" id="tientrinh"></progress>
+    <button onclick="myFunction()">Bắt đầu</button>
+    <script>
+        var i = 1;
+        function myFunction() {     
+            setTimeout(function () {   
+                document.getElementById("tientrinh").value = i;    
+                i++;                 
+                if (i <= 10) {         
+                    myFunction();           
+                }                      
+            }, 1000)
+        }
+    </script>
+
+    <br><iframe width="560" height="315" src="https://www.youtube.com/embed/kPWZbqnm5iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <br><iframe src="http://webcoban.vn/css/default.html" width="600px" height="600px"></iframe>
+    <br><iframe width="560" height="315" src="https://www.youtube.com/embed/cBhl3NXTf60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+
+</html>
